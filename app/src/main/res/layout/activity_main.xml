@@ -9,6 +9,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="#e1e1e1"
     tools:context="com.escobar.pable.snake.MainActivity">
+
+
     <ListView
         android:id="@+id/msgListView"
         android:layout_width="wrap_content"
@@ -52,6 +54,8 @@
             android:onClick="listenButtonOnClick"
             android:text="d" />
     </LinearLayout>
+
+
     <!--<TextView-->
         <!--android:layout_width="wrap_content"-->
         <!--android:layout_height="wrap_content"-->
